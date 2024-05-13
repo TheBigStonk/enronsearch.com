@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EnronSearch - Query the Email Server of the Enron Corporation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Description" content="EnronSearch - Query the Email Server of the Enron Corporation" />
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link rel="stylesheet" href="additional.css">
+</head>
+
+<body>
+    <h2>EnronSearch - Query the Enron Email Server</h2>
+
+    <div class=" window" style="width: 80%; margin-inline: auto;">
+        <div class="title-bar">
+            <div class="title-bar-text">Welcome to EnronSearch Networking</div>
+        </div>
+        <div class="window-body" style="display: flex;">
+            <div style="flex-direction: row; padding-right: 2%;">
+                <ul class="tree-view">
+                    <img style="max-width: 100%;" src="./images/enron-logo.jpg">
+                </ul>
+            </div>
+            <div style="flex-direction: row;">
+                <p><b>Search Here</b></p>
+                <p><b>This application has an indexed search of the 500,000 listed emails within the Enron archive
+                        available to search by the email contents and addresses using the bellow search bar. To get
+                        started,
+                        please search something sensible in the box below.</b></p>
+                <p><b>NOTE: Only the first 10 results will be displayed.</b></p>
+                <div class="field-row-stacked" style="width: 200px">
+                    <label for="searchQuery">Search</label>
+                    <input id="searchQuery" value="Christmas Party" />
+                </div>
+
+                <p>If you don't know about the 2001 Enron Corporation scandal, you can either:</p>
+                <ul>
+                    <li>Watch: <a href="https://www.youtube.com/watch?v=_0vRuHn9MmI">YouTube - Enron: The Smartest Guys
+                            in the
+                            Room</a></li>
+                    <li>Read: <a href="https://www.investopedia.com/updates/enron-scandal-summary/">Investopedia -
+                            Enron: Scandal and Accounting Fraud</a></li>
+                    <li>Investigate: <a href="https://www.cs.cmu.edu/~enron/">CMU - Enron
+                            Email Dataset</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div style="padding: 1%; padding-bottom: 1.5%; max-width:fit-content;margin-left: auto;">
+            <button>Query Enron</button>
+        </div>
+        <div class="status-bar">
+            <p class="status-bar-field">Made with love using 98.css</p>
+            <p class="status-bar-field">Cloud Services: ONLINE</p>
+
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="window" style="width: 80%; margin-inline: auto;">
+        <div class="title-bar">
+            <div class="title-bar-text">Enron Results Aggregator</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <p>This is where the results will go, an example is:</p>
+            <ul class="tree-view">
+                <li><b>Date:</b> Tue, 31 Jul 2001 13:36:53</li>
+                <li><b>From:</b> randy.bryan@enron.com</li>
+                <li><b>To:</b> lynn.blair@enron.com</li>
+                <li><b>Cc:</b> randy.bryan@enron.com</li>
+                <br>
+                <li>I am the only person on the North Team that expects to utilize the tuition reimbursement for
+                    2002.
+                    Approximate costs and details are as follows:
+
+                    Masters of Business Administration
+                    Degree Completion: August 2002
+                    18 Hours Remaining
+                    Tuition = $5,130.00 ($285/Hour)
+                    Books = $900.00
+                    Total Cost = $6,030
+
+                    Let me know if you have any other questions. Thanks.
+
+
+                    Randy Bryan
+                    Market Services Representative
+                    Northern Natural Gas Company
+                    (713) 853-0438 </li>
+            </ul>
+            <ul class="tree-view">
+                <li><b>Date:</b> Sun, 13 Aug 2000 07:24:00</li>
+                <li><b>From:</b> nlay@att.net</li>
+                <li><b>To:</b> mrslinda@lplpi.com</li>
+                <li><b>Cc:</b> sally.keepers@enron.com, mark.lay@enron.com, klay@enron.com, jlaywp@aol.com,
+                    lizard_ar@yahoo.com</li>
+                <br>
+                <li>Linda,
+                    ?
+                    Mark, Zach and I would like to come out to Aspen for? Christmas on December
+                    26th and stay until January 2nd.? We would like to stay at the old house in
+                    the front bedroom or the cottage.? I am looking into flight reservations
+                    right now and would like to know if this is o.k. so I can make definite
+                    plans.? We would also like to ride back with you and Ken if you will be
+                    flying back to Houston on January 2nd.? If you could please let me know ASAP
+                    that would be great.
+                    ?
+                    xoxo
+                    Natalie</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

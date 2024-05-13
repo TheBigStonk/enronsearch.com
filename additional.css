@@ -1,0 +1,11 @@
+body {
+    background-image: url("./images/background-xp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 2000px) {
+    #window-body {
+      visibility: hidden;
+    }
+  }
