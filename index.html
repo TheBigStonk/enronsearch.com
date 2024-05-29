@@ -8,12 +8,13 @@
     <meta name="Description" content="EnronSearch - Query the Email Server of the Enron Corporation" />
     <link rel="stylesheet" href="https://unpkg.com/98.css">
     <link rel="stylesheet" href="additional.css">
+    <script src="enron_search_handler.js"></script>
 </head>
 
 <body>
     <h2>EnronSearch - Query the Enron Email Server</h2>
 
-    <div class=" window" style="width: 80%; margin-inline: auto;">
+    <div class="window" style="width: 80%; margin-inline: auto;">
         <div class="title-bar">
             <div class="title-bar-text">Welcome to EnronSearch Networking</div>
         </div>
@@ -49,7 +50,7 @@
         </div>
         <hr>
         <div style="padding: 1%; padding-bottom: 1.5%; max-width:fit-content;margin-left: auto;">
-            <button>Query Enron</button>
+            <button id="queryButton">Query Enron</button>
         </div>
         <div class="status-bar">
             <p class="status-bar-field">Made with love using 98.css</p>
@@ -69,13 +70,14 @@
                 <button aria-label="Close"></button>
             </div>
         </div>
-        <div class="window-body">
+        <div id="resultsWindow" class="window-body">
             <p>This is where the results will go, an example is:</p>
             <ul class="tree-view">
                 <li><b>Date:</b> Tue, 31 Jul 2001 13:36:53</li>
                 <li><b>From:</b> randy.bryan@enron.com</li>
                 <li><b>To:</b> lynn.blair@enron.com</li>
                 <li><b>Cc:</b> randy.bryan@enron.com</li>
+                <li><b>Subject:</b> Bullshit Email 1</li>
                 <br>
                 <li>I am the only person on the North Team that expects to utilize the tuition reimbursement for
                     2002.
@@ -102,6 +104,7 @@
                 <li><b>To:</b> mrslinda@lplpi.com</li>
                 <li><b>Cc:</b> sally.keepers@enron.com, mark.lay@enron.com, klay@enron.com, jlaywp@aol.com,
                     lizard_ar@yahoo.com</li>
+                <li><b>Subject:</b> Bullshit Email 2</li>
                 <br>
                 <li>Linda,
                     ?
